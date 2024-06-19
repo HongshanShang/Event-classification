@@ -14,7 +14,14 @@ This study designed four types of models.
 
 ## Dataset 
 AVE Dataset [[1]](https://sites.google.com/view/audiovisualresearch)
-## Features
-Audio and visual feature can be downloaded [here](https://drive.google.com/file/d/1bIiWakMw4neXDYPO_9H_gGN_UcikWa7I/view?usp=sharing). Audio feature are extracted with a VGGish network [2] and visual feature are extracted with DenseNet [3]
-
-Scripts for generating audio and visual features are in feature_extractor folder (Feel free to modify and use it to process your audio-visual data)
+## Tools 
+* Language： Python
+* IDE： Pycharm
+* library and package:
+*   Tensorflow
+*   Keras
+*   scipy.io
+*   pillow
+*   resampy
+*   ffmpeg
+*   pickle
