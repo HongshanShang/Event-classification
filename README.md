@@ -1,3 +1,8 @@
 # Event-classification
 
-This study designed four models. They are single image data type classification model, single sound data type classification model, sound image multimodal model and sound image multimodal model with attention mechanisms. 
+This study designed four models. 
+1:Single image data type classification model
+2:Single sound data type classification model
+3:Vitual and audio multimodal model 
+4:Vitual and audio multimodal model with attention mechanisms
+
