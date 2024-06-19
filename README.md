@@ -7,8 +7,8 @@ The model has three outstanding advantages.
 - Easy to adjust. Users only need to adjust individual parameters or adjust individual modules to achieve the desired function.
 
 This study designed four types of models. 
-- Single image data type classification model
-- Single sound data type classification model
+- Single visual data type classification model
+- Single audio data type classification model
 - Vitual and audio multimodal model 
 - Vitual and audio multimodal model with attention mechanisms
 
@@ -25,3 +25,16 @@ AVE Dataset [[1]](https://sites.google.com/view/audiovisualresearch)
 *   resampy
 *   ffmpeg
 *   pickle
+  
+## Single visual data type classification model
+This model aims to identify and analyze a single image, identify the objects in the image, analyze the events that occurred in the image, and label the image.
+- Vmodel.ipynb
+## Single audio data type classification model
+This model is dedicated to the recognition and analysis of a single sound environment. It identifies various sounds and events in the audio and adds corresponding labels to these audios. 
+- Vmodel.ipynb
+## Visual and audio multimodal model
+This model aims to simultaneously recognize images and sounds in complex environments, analyze complex scenes, and improve the adaptability of the model in complex environments through the complementarity between image and sound features.
+- Vmodel.ipynb
+## Visual and audio multimodal model with attention mechanisms
+Using Attention Mechanisms to Focus on the Importance of Different Modal Features. In handling multimodal data, this study introduces attention mechanisms to dynamically focus on the importance of features across different modalities, further enhancing model performance. 
+- Multimodel.ipynb
